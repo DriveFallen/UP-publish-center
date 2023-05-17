@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1A770B7-1FDD-4104-BBD1-EDED89667B86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Издательский_центр</RootNamespace>
+    <AssemblyName>Издательский центр</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_main.Designer.cs">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_authorization.Designer.cs">
+      <DependentUpon>Form_authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_books.Designer.cs">
+      <DependentUpon>Form_redactor_books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_clients.Designer.cs">
+      <DependentUpon>Form_redactor_clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_contracts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_contracts.Designer.cs">
+      <DependentUpon>Form_redactor_contracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_orders.Designer.cs">
+      <DependentUpon>Form_redactor_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_users.Designer.cs">
+      <DependentUpon>Form_redactor_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_redactor_writers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_redactor_writers.Designer.cs">
+      <DependentUpon>Form_redactor_writers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Издательский_центрDataSet.cs">
+      <DependentUpon>Издательский_центрDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Издательский_центрDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Издательский_центрDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_main.resx">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_authorization.resx">
+      <DependentUpon>Form_authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_books.resx">
+      <DependentUpon>Form_redactor_books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_clients.resx">
+      <DependentUpon>Form_redactor_clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_contracts.resx">
+      <DependentUpon>Form_redactor_contracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_orders.resx">
+      <DependentUpon>Form_redactor_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_users.resx">
+      <DependentUpon>Form_redactor_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_redactor_writers.resx">
+      <DependentUpon>Form_redactor_writers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Издательский_центрDataSet.xsc">
+      <DependentUpon>Издательский_центрDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Издательский_центрDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Издательский_центрDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Издательский_центрDataSet.xss">
+      <DependentUpon>Издательский_центрDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WSLib\WSLib.csproj">
+      <Project>{526d9828-02f7-438e-aab0-f2f06739f64a}</Project>
+      <Name>WSLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

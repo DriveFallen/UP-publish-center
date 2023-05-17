@@ -1,0 +1,36 @@
+G:\Study\УП02\Издательский центр\Издательский центр\bin\Debug\Издательский центр.exe.config
+G:\Study\УП02\Издательский центр\Издательский центр\bin\Debug\Издательский центр.exe
+G:\Study\УП02\Издательский центр\Издательский центр\bin\Debug\Издательский центр.pdb
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_authorization.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Properties.Resources.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.csproj.GenerateResource.cache
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.csproj.CoreCompileInputs.cache
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.exe
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.pdb
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_main.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.csproj.ResolveComReference.cache
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_orders.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_writers.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_contracts.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_users.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_books.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_clients.resources
+G:\Study\УП02\Издательский центр\Издательский центр\obj\Debug\Издательский центр.csprojAssemblyReference.cache
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\bin\Debug\Издательский центр.exe.config
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\bin\Debug\Издательский центр.exe
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\bin\Debug\Издательский центр.pdb
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.csprojAssemblyReference.cache
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.csproj.ResolveComReference.cache
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_main.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_Authorization.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_books.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_clients.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_contracts.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_orders.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_users.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Form_redactor_writers.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский_центр.Properties.Resources.resources
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.csproj.GenerateResource.cache
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.csproj.CoreCompileInputs.cache
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.exe
+G:\Study\УП02\ИздательскийЦентр\Издательский центр\obj\Debug\Издательский центр.pdb
